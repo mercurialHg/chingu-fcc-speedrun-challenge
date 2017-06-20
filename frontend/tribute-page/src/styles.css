@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 70px 30px;
+    background: #ECEFF1;
+}
+
+

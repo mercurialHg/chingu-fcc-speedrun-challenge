@@ -1,0 +1,29 @@
+.main {
+   position: relative; 
+}
+
+.main__article {
+    display: flex;
+    
+}
+
+.article__section {
+    text-align: center;
+}
+
+.figure {
+    height: 440px;
+    margin: 0;
+}
+
+.figure__image {
+    max-height: 100%;
+}
+
+.attrib {
+    font-size: .8em;
+}
+
+.wikipedia {
+    display: inline-block;
+}
