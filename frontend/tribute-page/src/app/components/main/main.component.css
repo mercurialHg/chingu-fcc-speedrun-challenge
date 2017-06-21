@@ -2,27 +2,57 @@
    position: relative; 
 }
 
-.main__article {
+.info--flex {
     display: flex;
-    
 }
 
-.article__section {
+.info__face-and-button-to-wiki {
     text-align: center;
 }
 
-.figure {
+.info__image-container {
     margin: 0;
+    position: relative;
+    padding: 0;
 }
 
-.figure__image {
+.info__image {
     max-height: 400px;
 }
 
-.attrib {
-    font-size: .8em;
+.image__attributions {
+    position: absolute;
+    bottom: 5px;
+    left: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    font-size: .65em;
+    line-height: 30px;
+    color: white;
 }
 
-.wikipedia {
-    display: inline-block;
+.attribution {
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+
+    transition: color .2s linear;
 }
+
+.attribution:hover {
+    color: #aaa;
+    transition: color .2s linear;
+}
+
+.info__references-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.reference {
+    text-align: center;
+    width: 170px;
+}
+

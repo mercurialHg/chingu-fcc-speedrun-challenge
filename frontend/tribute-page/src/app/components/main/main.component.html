@@ -1,25 +1,47 @@
 <main class="main">
-  <article class="main__article">
-    <section class="article__section">
-        <figure class="figure">
-          <img src="../../assets/images/john_green_620px.jpg" alt="John Green" class="figure__image"/>
-          <figcaption class="attrib">
-            Image by Gage Skidmore, <a href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, 
-            <a href="https://commons.wikimedia.org/w/index.php?curid=33778576">Link</a>
+  <!-- article contains image and presentation - content collapses on smaller widths-->
+  <article class="info info--flex">
+    <section class="info__image-and-references">
+
+        <figure class="info__image-container">
+          <img class="info__image" src="../../assets/images/john_green_620px.jpg" alt="John Green"/>
+          <figcaption class="image__attributions">
+            Image by Gage Skidmore, 
+            <a class="attribution" href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, 
+            <a class="attribution" href="https://commons.wikimedia.org/w/index.php?curid=33778576">Link</a>
           </figcaption>
         </figure>
-        <button class="wikipedia"> Wikipedia Article </button>
-    </section> 
-    <section class="article__summary">
-      <h2 class="article__title"> John Green </h2>
-      <div class="summary__presentation">
 
+        <div class="info__references-container">
+          <a md-button class="reference reference--site" href="http://www.johngreenbooks.com/"> John Green Site </a>
+          <a md-button class="reference reference--wikipedia" href="https://en.wikipedia.org/wiki/John_Green_(author)"> Read on Wikipedia </a>
+          <a md-button class="reference reference--youtube" href="https://www.youtube.com/user/vlogbrothers"> Watch on Youtube </a>
+        </div> 
+        
+    </section> 
+    <section class="info__short-info">
+      <h2 class="short-info__title"> John Green </h2>
+      <div class="short-info__details">
+          <ul class="details__list">
+            <li>Novelist: notable for <a href="https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars" target='_blank'>The Fault in Our Stars</a>
+               and <a href="https://en.wikipedia.org/wiki/Looking_for_Alaska" target='_blank'>Looking for Alaska</a> </li>
+            <li>Youtuber: <a href="https://www.youtube.com/user/crashcourse" target='_blank'>CrashCourse</a>, 
+              <a href="https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9">Crash Course World History</a>, 
+              <a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtOeEc9ME62zTfqc0h6Pe8vb">Crash Course Literature</a>     
+            </li>
+            <li> <a href="https://store.dftba.com" target='_blank'><abbr title="Don't Forget To Be Awesome!">DFTBA</abbr> </a>proponent and co-owner: 
+                <a href="https://store.dftba.com/pages/the-dftba-team"> DTFBA Team</a>
+             </li>
+          </ul>
       </div>
     </section>
   </article>
-  <article class="main__article">
-    <section class="article__activity">
 
+  <article class="activity">
+    <section class="activity__list-container">
+        <ul class="activity__list">
+          
+        </ul>
     </section>
   </article>
 </main>
