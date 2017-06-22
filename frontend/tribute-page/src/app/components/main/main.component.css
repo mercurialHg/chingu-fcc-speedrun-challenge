@@ -1,58 +1,60 @@
-.main {
-   position: relative; 
+.md-card--margin10 {
+    margin: 10px;
 }
 
-.info--flex {
+.main__content-container {
+    background: #ECEFF1;
+}
+
+
+.content__summary{
+
+}
+.summary__image-and-references {
+    display: flex;
+    justify-content: center;
+}
+
+.summary__card {
+    padding-bottom: 10px;
+}
+
+.summary__image-container {
+    margin: 0;
+    position: relative;
+}
+
+.summary__image {
+    height: 600px;
+}
+.summary__references {
     display: flex;
 }
 
-.info__face-and-button-to-wiki {
-    text-align: center;
+.reference {
+    width: 33.333%;
 }
 
-.info__image-container {
-    margin: 0;
-    position: relative;
-    padding: 0;
-}
-
-.info__image {
-    max-height: 400px;
-}
 
 .image__attributions {
+    font-size: .7em;
+    text-align: center;
+    color: #fff;
+
     position: absolute;
-    bottom: 5px;
+    bottom: 0;
     left: 0;
     width: 100%;
-    height: 30px;
-    text-align: center;
-    font-size: .65em;
-    line-height: 30px;
-    color: white;
+    height: 20px;
 }
 
 .attribution {
-    color: white;
     text-decoration: none;
     font-style: italic;
-
     transition: color .2s linear;
 }
 
 .attribution:hover {
-    color: #aaa;
-    transition: color .2s linear;
-}
-
-.info__references-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.reference {
-    text-align: center;
-    width: 170px;
+    color: #999;
 }
 

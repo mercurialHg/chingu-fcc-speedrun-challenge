@@ -1,16 +1,5 @@
-.header {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
+.header-container {
     background: #00897b;
-    padding-left: 40px;
-    color: white;
-}
 
-.header__title {
-    line-height: 70px;
-    margin-top: 0;
-    margin-bottom: 0;
+    color: #fff;
 }

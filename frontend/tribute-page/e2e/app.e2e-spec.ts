@@ -1,10 +1,10 @@
-import { TributePage } from './app.po';
+import { TributePagePage } from './app.po';
 
-describe('tribute App', () => {
-  let page: TributePage;
+describe('tribute-page App', () => {
+  let page: TributePagePage;
 
   beforeEach(() => {
-    page = new TributePage();
+    page = new TributePagePage();
   });
 
   it('should display welcome message', () => {

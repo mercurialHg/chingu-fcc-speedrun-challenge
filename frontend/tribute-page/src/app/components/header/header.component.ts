@@ -7,11 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
 
-  title:string = "John Green Tribute";
-
   constructor() { }
 
   ngOnInit() {
   }
+
+  author:string = "John Green "
 
 }

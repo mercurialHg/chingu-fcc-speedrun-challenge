@@ -1,47 +1,80 @@
 <main class="main">
-  <!-- article contains image and presentation - content collapses on smaller widths-->
-  <article class="info info--flex">
-    <section class="info__image-and-references">
+  <!--<h1 class="main__title main__title--center"> John Green</h1>-->
+  <md-card class="main__content-container">
 
-        <figure class="info__image-container">
-          <img class="info__image" src="../../assets/images/john_green_620px.jpg" alt="John Green"/>
+    <article class="content__summary">
+      <section class="summary__image-and-references">
+        <md-card class="summary__card md-card--margin10">
+        <figure class="summary__image-container">
+          <img class="summary__image" src="../../../assets/images/john_green_620px.jpg" alt="John Green">
           <figcaption class="image__attributions">
-            Image by Gage Skidmore, 
-            <a class="attribution" href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, 
+            Image by Gage Skidmore, <a class="attribution" href="http://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">
+            CC BY-SA 3.0</a>,
             <a class="attribution" href="https://commons.wikimedia.org/w/index.php?curid=33778576">Link</a>
           </figcaption>
-        </figure>
+       </figure>
+       <div class="summary__references">
+         <a md-button class="reference" href="http://www.johngreenbooks.com/" target="_blank"> Website</a>
+         <a md-button class="reference" href="https://en.wikipedia.org/wiki/John_Green_(author)" target="_blank"> Wikipedia </a>
+         <a md-button class="reference" href="https://www.youtube.com/user/vlogbrothers" target="_blank"> Youtube </a>
+       </div>
+       </md-card>
+      </section>
+      <!--<md-card class="md-card--margin10">
+        <div class="summary__notables-container">
+          <section class="summary__notables">
+            <h2 class="notables__title">John Green</h2>
+            <h3 class="notables__subtitle">Author, Writer, Producer</h3>
+            <ul>
+              <li>Author of 
+              <a href="https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars">  The Fault in Our Stars</a>,
+             
+              <a href="https://en.wikipedia.org/wiki/Looking_for_Alaska"> Looking for Alaska</a> </li>
+              <li>Educator at <a href="https://www.youtube.com/user/crashcourse"> CrashCourse</a> on various topics</li>
+              <li>Co-owner of <a href="https://store.dftba.com/pages/the-dftba-team" title="Don't Forget To Be Awesome!"> DTFBA </a></li>
+            </ul>
+            </section>
+        </div>
+      </md-card>-->
+    </article>
 
-        <div class="info__references-container">
-          <a md-button class="reference reference--site" href="http://www.johngreenbooks.com/"> John Green Site </a>
-          <a md-button class="reference reference--wikipedia" href="https://en.wikipedia.org/wiki/John_Green_(author)"> Read on Wikipedia </a>
-          <a md-button class="reference reference--youtube" href="https://www.youtube.com/user/vlogbrothers"> Watch on Youtube </a>
-        </div> 
-        
-    </section> 
-    <section class="info__short-info">
-      <h2 class="short-info__title"> John Green </h2>
-      <div class="short-info__details">
-          <ul class="details__list">
-            <li>Novelist: notable for <a href="https://en.wikipedia.org/wiki/The_Fault_in_Our_Stars" target='_blank'>The Fault in Our Stars</a>
-               and <a href="https://en.wikipedia.org/wiki/Looking_for_Alaska" target='_blank'>Looking for Alaska</a> </li>
-            <li>Youtuber: <a href="https://www.youtube.com/user/crashcourse" target='_blank'>CrashCourse</a>, 
-              <a href="https://www.youtube.com/playlist?list=PLBDA2E52FB1EF80C9">Crash Course World History</a>, 
-              <a href="https://www.youtube.com/playlist?list=PL8dPuuaLjXtOeEc9ME62zTfqc0h6Pe8vb">Crash Course Literature</a>     
-            </li>
-            <li> <a href="https://store.dftba.com" target='_blank'><abbr title="Don't Forget To Be Awesome!">DFTBA</abbr> </a>proponent and co-owner: 
-                <a href="https://store.dftba.com/pages/the-dftba-team"> DTFBA Team</a>
-             </li>
-          </ul>
-      </div>
-    </section>
-  </article>
+    <article class="content__work">
+      <md-card class="md-card--margin10">
+        <h2 class="work__title">Works 
+          <span class="work__source"><a href="https://en.wikipedia.org/wiki/John_Green_(author)" >(Source)</a>
+          </span>
+        </h2>
+      </md-card>
 
-  <article class="activity">
-    <section class="activity__list-container">
-        <ul class="activity__list">
-          
+      <md-card class="work-container books md-card--margin10">
+        <h3 class="books__title">Books</h3>
+        <ul class="books__list">
+          <li class="book">Looking for Alaska (2005)</li>
+          <li class="book">An Abundance of Katherines (2006)</li>
+          <li class="book">Let It Snow: Three Holiday Romances – with Maureen Johnson and Lauren Myracle (2008)</li>
+          <li class="book">Will Grayson, Will Grayson – with David Levithan (2010)</li>
+          <li class="book">The Fault in Our Stars (2012)</li>
         </ul>
-    </section>
-  </article>
+        <a class="work__link" md-button  href="http://www.goodreads.com/author/show/1406384.John_Green"> See on Goodreads.com</a>
+      </md-card>
+      <md-card class="work-container film md-card--margin10">
+        <h3 class="films__title">Film</h3>
+        <ul class="films__list">
+          <li class="film"> <a href="http://www.imdb.com/title/tt2582846/?ref_=fn_al_tt_1"> The Fault in Our Stars </a> (IMDB) </li>
+          <li class="film">  <a href="http://www.imdb.com/title/tt3622592/?ref_=fn_al_tt_1"> Paper Towns </a> (IMDB) </li>
+        </ul>
+        <a class="work__link" md-button  href="http://www.imdb.com/name/nm1981261/"> See on IMDB </a>
+      </md-card>
+      <md-card class="work-container youtube md-card--margin10">
+        <h3 class="youtube__title">Youtube </h3>
+        <md-tab-group >
+            <md-tab label="vlogbrothers">Embed Video Here</md-tab>
+            <md-tab label="World History">Embed Video Here</md-tab>
+            <md-tab label="US History">Embed Video Here</md-tab>
+            <md-tab label="World History 201">Embed Video Here</md-tab>
+            <md-tab label="Big History">Embed Video Here</md-tab>
+        </md-tab-group>
+      </md-card>
+    </article>
+  </md-card>
 </main>
